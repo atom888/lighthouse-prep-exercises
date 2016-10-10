@@ -25,38 +25,3 @@ for (var x = 1; x <= size; x++) {
         }
     console.log(line);
 }
-
-
-
-
-
-
-
-/*
-var rowOne = ".";
-var rowTwo = "#";
-
-
-for (var counter = 1; counter < size; counter +=1) {
-  if (rowOne.length % 2 == 0) {
-    rowOne += ".";
-  }
-  else  {
-    rowOne += "#";
-  }
-}
-
-console.log(rowOne);
-
-for (var counter = 1; counter < size; counter +=1) {
-  if (rowTwo.length % 2 == 0) {
-    rowTwo += "#";
-  }
-  else  {
-    rowTwo += ".";
-  }
-}
-
-console.log(rowTwo);
-
-*/
