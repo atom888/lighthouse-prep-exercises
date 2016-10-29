@@ -6,9 +6,22 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
+  "author": "adipinto",
   "license": "ISC",
   "dependencies": {
     "@linclark/pkg": "^1.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom888/lighthouse-prep-exercises/tree/master/FCC-npm"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "-",
+    "Managing",
+    "Packages",
+    "with",
+    "npm"
+  ]
 }
