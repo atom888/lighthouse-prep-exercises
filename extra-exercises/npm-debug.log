@@ -1,0 +1,682 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'how-to-npm' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData how-to-npm
+8 silly fetchNamedPackageData how-to-npm
+9 silly mapToRegistry name how-to-npm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'how-to-npm',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'how-to-npm',
+12 silly mapToRegistry   name: 'how-to-npm',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/how-to-npm
+14 verbose request uri https://registry.npmjs.org/how-to-npm
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:14:18 AM
+17 verbose request id 640653f364fa39d5
+18 verbose etag "AGGO8K3CZ8LX10211EXS991C0"
+19 http request GET https://registry.npmjs.org/how-to-npm
+20 http 304 https://registry.npmjs.org/how-to-npm
+21 verbose headers { date: 'Sat, 29 Oct 2016 17:14:18 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"AGGO8K3CZ8LX10211EXS991C0"',
+21 verbose headers   age: '17',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sea1925-SEA',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1477761258.794158,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sat, 29 Oct 2016 17:14:18 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"AGGO8K3CZ8LX10211EXS991C0"',
+22 silly get     age: '17',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sea1925-SEA',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1477761258.794158,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/how-to-npm from cache
+24 verbose get saving how-to-npm to /Users/androidadam/.npm/registry.npmjs.org/how-to-npm/.cache.json
+25 verbose correctMkdir /Users/androidadam/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule how-to-npm@2.0.0 checking installable status
+39 silly cache add args [ 'how-to-npm', null ]
+40 verbose cache add spec how-to-npm
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'how-to-npm',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'how-to-npm',
+41 silly cache add   name: 'how-to-npm',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed how-to-npm@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for how-to-npm
+44 info addNameTag [ 'how-to-npm', 'latest' ]
+45 silly mapToRegistry name how-to-npm
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'how-to-npm',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'how-to-npm',
+48 silly mapToRegistry   name: 'how-to-npm',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/how-to-npm
+50 verbose addNameTag registry:https://registry.npmjs.org/how-to-npm not in flight; fetching
+51 verbose get https://registry.npmjs.org/how-to-npm not expired, no request
+52 silly addNameTag next cb for how-to-npm with tag latest
+53 silly addNamed how-to-npm@2.0.0
+54 verbose addNamed "2.0.0" is a plain semver version for how-to-npm
+55 silly cache afterAdd how-to-npm@2.0.0
+56 verbose afterAdd /Users/androidadam/.npm/how-to-npm/2.0.0/package/package.json not in flight; writing
+57 verbose correctMkdir /Users/androidadam/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /Users/androidadam/.npm/how-to-npm/2.0.0/package/package.json written
+59 verbose correctMkdir /Users/androidadam/.npm correctMkdir not in flight; initializing
+60 verbose addBundled extract /Users/androidadam/.npm/how-to-npm/2.0.0/package.tgz
+61 verbose tar unpack /Users/androidadam/.npm/how-to-npm/2.0.0/package.tgz
+62 verbose tar unpacking to /var/folders/py/ncntxv2x6893xhlcxb4qg_kw0000gn/T/npm-660-1e90d576/unpack-e7c1ea59
+63 silly gentlyRm /var/folders/py/ncntxv2x6893xhlcxb4qg_kw0000gn/T/npm-660-1e90d576/unpack-e7c1ea59 is being purged
+64 verbose gentlyRm don't care about contents; nuking /var/folders/py/ncntxv2x6893xhlcxb4qg_kw0000gn/T/npm-660-1e90d576/unpack-e7c1ea59
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm extractEntry README.md
+69 silly gunzTarPerm extractEntry LICENSE
+70 silly gunzTarPerm extractEntry index.js
+71 silly gunzTarPerm extractEntry lib/registry.js
+72 silly gunzTarPerm extractEntry lib/registry-assets/@linclark/pkg/-/pkg-1.0.2.tgz
+73 silly gunzTarPerm extractEntry lib/registry-assets/@linclark/pkg/body.json
+74 silly gunzTarPerm extractEntry lib/registry-assets/wrappy/-/wrappy-1.0.1.tgz
+75 silly gunzTarPerm extractEntry lib/registry-assets/wrappy/body.json
+76 silly gunzTarPerm extractEntry lib/registry-assets-update/@linclark/pkg/-/pkg-1.0.3.tgz
+77 silly gunzTarPerm extractEntry lib/registry-assets-update/@linclark/pkg/body.json
+78 silly gunzTarPerm extractEntry problems/00-install-npm.js
+79 silly gunzTarPerm extractEntry problems/05-listing-dependencies.js
+80 silly gunzTarPerm extractEntry problems/06-npm-test.js
+81 silly gunzTarPerm extractEntry problems/07-package-niceties.js
+82 silly gunzTarPerm extractEntry problems/04-install-a-module.js
+83 silly gunzTarPerm extractEntry problems/09-version.js
+84 silly gunzTarPerm extractEntry problems/10-publish-again.js
+85 silly gunzTarPerm extractEntry problems/11-dist-tag.js
+86 silly gunzTarPerm extractEntry problems/12-dist-tag-removal.js
+87 silly gunzTarPerm extractEntry problems/13-outdated.js
+88 silly gunzTarPerm extractEntry problems/03-start-a-project.js
+89 silly gunzTarPerm extractEntry problems/14-update.js
+90 silly gunzTarPerm extractEntry problems/02-login.js
+91 silly gunzTarPerm extractEntry problems/15-rm.js
+92 silly gunzTarPerm extractEntry problems/01-dev-environment.js
+93 silly gunzTarPerm extractEntry problems/16-finale.js
+94 silly gunzTarPerm extractEntry problems/08-publish.js
+95 silly gunzTarPerm extractEntry workshop-npmrc
+96 silly gunzTarPerm extractEntry node_modules/adventure/package.json
+97 silly gunzTarPerm extractEntry node_modules/adventure/LICENSE
+98 silly gunzTarPerm extractEntry node_modules/adventure/index.js
+99 silly gunzTarPerm extractEntry node_modules/adventure/example/runner.js
+100 silly gunzTarPerm extractEntry node_modules/adventure/example/dinosaurs/index.js
+101 silly gunzTarPerm extractEntry node_modules/adventure/example/robots/index.js
+102 silly gunzTarPerm extractEntry node_modules/adventure/example/robots/problem.txt
+103 silly gunzTarPerm extractEntry node_modules/adventure/example/robots/solution.txt
+104 silly gunzTarPerm extractEntry node_modules/adventure/example/wowsers/index.js
+105 silly gunzTarPerm extractEntry node_modules/adventure/example/wowsers/problem.txt
+106 silly gunzTarPerm extractEntry node_modules/adventure/example/wowsers/solution.txt
+107 silly gunzTarPerm extractEntry node_modules/adventure/lib/help.js
+108 silly gunzTarPerm extractEntry node_modules/adventure/lib/menu.js
+109 silly gunzTarPerm extractEntry node_modules/adventure/lib/usage.txt
+110 silly gunzTarPerm extractEntry node_modules/adventure/readme.markdown
+111 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/inherits/package.json
+112 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/inherits/README.md
+113 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/inherits/LICENSE
+114 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/inherits/inherits.js
+115 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/inherits/inherits_browser.js
+116 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/inherits/test.js
+117 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/package.json
+118 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/LICENSE
+119 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/index.js
+120 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/.travis.yml
+121 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/example/parse.js
+122 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/readme.markdown
+123 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/all_bool.js
+124 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/dash.js
+125 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/default_bool.js
+126 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/dotted.js
+127 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/bool.js
+128 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/num.js
+129 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/parse.js
+130 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/parse_modified.js
+131 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/short.js
+132 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/whitespace.js
+133 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/minimist/test/long.js
+134 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/package.json
+135 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/.npmignore
+136 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/LICENCE
+137 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/index.js
+138 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/.travis.yml
+139 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/examples/pretty.js
+140 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/readme.markdown
+141 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/test/options.asynct.js
+142 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/test/partitioned_unicode.js
+143 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/test/split.asynct.js
+144 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/test/try_catch.asynct.js
+145 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/package.json
+146 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/index.js
+147 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/.travis.yml
+148 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/LICENSE.APACHE2
+149 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/LICENSE.MIT
+150 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/readme.markdown
+151 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/test/async.js
+152 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/test/auto-destroy.js
+153 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/test/buffering.js
+154 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/test/end.js
+155 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/split/node_modules/through/test/index.js
+156 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/package.json
+157 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/.npmignore
+158 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/LICENSE
+159 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/index.js
+160 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/example/client.js
+161 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/example/menu.js
+162 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/example/server.js
+163 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/example/simple.js
+164 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/readme.markdown
+165 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/package.json
+166 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/index.js
+167 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/README.markdown
+168 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/256.js
+169 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/column.js
+170 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/cursor.js
+171 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/http_spin.js
+172 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/lucky.js
+173 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/position.js
+174 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/progress.js
+175 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/resize.js
+176 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/example/spin.js
+177 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/charm/lib/encode.js
+178 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/package.json
+179 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/.npmignore
+180 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/README.md
+181 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/example.js
+182 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/index.js
+183 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/.travis.yml
+184 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/LICENSE.md
+185 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/test/tests.js
+186 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/package.json
+187 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/.npmignore
+188 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/README.md
+189 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/LICENSE
+190 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/duplex.js
+191 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/transform.js
+192 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/readable.js
+193 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/passthrough.js
+194 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/writable.js
+195 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_duplex.js
+196 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_passthrough.js
+197 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_readable.js
+198 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_transform.js
+199 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_writable.js
+200 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/float.patch
+201 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/package.json
+202 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/README.md
+203 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/util.js
+204 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/float.patch
+205 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+206 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/package.json
+207 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/README.md
+208 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/index.js
+209 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/build/build.js
+210 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/component.json
+211 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/package.json
+212 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+213 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/README.md
+214 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+215 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/index.js
+216 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/package.json
+217 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/LICENSE
+218 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/index.js
+219 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/.travis.yml
+220 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/example/resume.js
+221 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/readme.markdown
+222 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/test/resume.js
+223 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/test/through.js
+224 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/package.json
+225 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/index.js
+226 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/.travis.yml
+227 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/LICENSE.APACHE2
+228 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/LICENSE.MIT
+229 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/readme.markdown
+230 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/test/async.js
+231 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/test/auto-destroy.js
+232 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/test/buffering.js
+233 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/test/end.js
+234 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/resumer/node_modules/through/test/index.js
+235 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/package.json
+236 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/.npmignore
+237 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/README.md
+238 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/LICENSE
+239 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/through2.js
+240 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/package.json
+241 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/.npmignore
+242 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/README.md
+243 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/LICENSE
+244 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/duplex.js
+245 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/transform.js
+246 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/passthrough.js
+247 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/readable.js
+248 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/writable.js
+249 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/lib/_stream_duplex.js
+250 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/lib/_stream_passthrough.js
+251 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/lib/_stream_readable.js
+252 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/lib/_stream_transform.js
+253 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/lib/_stream_writable.js
+254 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json
+255 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/README.md
+256 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/util.js
+257 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/float.patch
+258 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+259 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json
+260 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/isarray/README.md
+261 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/isarray/index.js
+262 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/isarray/build/build.js
+263 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/isarray/component.json
+264 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/package.json
+265 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+266 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/README.md
+267 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+268 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/index.js
+269 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/package.json
+270 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/.npmignore
+271 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/README.md
+272 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/LICENCE
+273 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/immutable.js
+274 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/mutable.js
+275 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/test.js
+276 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/.jshintrc
+277 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/through2/node_modules/xtend/Makefile
+278 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/package.json
+279 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/LICENSE
+280 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/example.js
+281 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/visualwidth.js
+282 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/Makefile
+283 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/README.mkdn
+284 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/author/regex.pl
+285 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/t/test.js
+286 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/test/node-test.js
+287 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/test/qunit.js
+288 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/test/test.js
+289 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/test/index.html
+290 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/terminal-menu/node_modules/visualwidth/test/qunit-git.css
+291 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/package.json
+292 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/.npmignore
+293 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/README.md
+294 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/LICENSE
+295 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/through2.js
+296 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/package.json
+297 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/.npmignore
+298 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/README.md
+299 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/LICENSE
+300 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/duplex.js
+301 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/transform.js
+302 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/passthrough.js
+303 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/readable.js
+304 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/writable.js
+305 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/lib/_stream_duplex.js
+306 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/lib/_stream_passthrough.js
+307 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/lib/_stream_readable.js
+308 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/lib/_stream_transform.js
+309 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/lib/_stream_writable.js
+310 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json
+311 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/README.md
+312 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/util.js
+313 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/float.patch
+314 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+315 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json
+316 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/isarray/README.md
+317 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/isarray/index.js
+318 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/isarray/build/build.js
+319 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/isarray/component.json
+320 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/package.json
+321 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+322 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/README.md
+323 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+324 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/index.js
+325 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/package.json
+326 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/.npmignore
+327 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/README.md
+328 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/LICENCE
+329 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/index.js
+330 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/mutable.js
+331 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/test.js
+332 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/.jshintrc
+333 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/through2/node_modules/xtend/Makefile
+334 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/package.json
+335 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/index.js
+336 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/.travis.yml
+337 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/colors.json
+338 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/example/charm.js
+339 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/example/ix.js
+340 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/example/raw.js
+341 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/readme.markdown
+342 silly gunzTarPerm extractEntry node_modules/adventure/node_modules/x256/test/id.js
+343 silly gunzTarPerm extractEntry node_modules/concat-stream/package.json
+344 silly gunzTarPerm extractEntry node_modules/concat-stream/.npmignore
+345 silly gunzTarPerm extractEntry node_modules/concat-stream/LICENSE
+346 silly gunzTarPerm extractEntry node_modules/concat-stream/index.js
+347 silly gunzTarPerm extractEntry node_modules/concat-stream/readme.md
+348 silly gunzTarPerm extractEntry node_modules/concat-stream/test/array.js
+349 silly gunzTarPerm extractEntry node_modules/concat-stream/test/buffer.js
+350 silly gunzTarPerm extractEntry node_modules/concat-stream/test/infer.js
+351 silly gunzTarPerm extractEntry node_modules/concat-stream/test/nothing.js
+352 silly gunzTarPerm extractEntry node_modules/concat-stream/test/objects.js
+353 silly gunzTarPerm extractEntry node_modules/concat-stream/test/string.js
+354 silly gunzTarPerm extractEntry node_modules/concat-stream/test/typedarray.js
+355 silly gunzTarPerm extractEntry node_modules/concat-stream/test/server/ls.js
+356 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/inherits/package.json
+357 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/inherits/README.md
+358 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/inherits/LICENSE
+359 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/inherits/inherits.js
+360 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/inherits/inherits_browser.js
+361 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/inherits/test.js
+362 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/package.json
+363 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/.npmignore
+364 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/README.md
+365 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/LICENSE
+366 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/duplex.js
+367 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/transform.js
+368 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/readable.js
+369 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/passthrough.js
+370 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/writable.js
+371 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/lib/_stream_duplex.js
+372 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/lib/_stream_passthrough.js
+373 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/lib/_stream_readable.js
+374 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/lib/_stream_transform.js
+375 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/lib/_stream_writable.js
+376 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/float.patch
+377 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/package.json
+378 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/README.md
+379 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/util.js
+380 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/float.patch
+381 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+382 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/package.json
+383 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/README.md
+384 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/index.js
+385 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/build/build.js
+386 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/component.json
+387 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/package.json
+388 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+389 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/README.md
+390 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+391 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/index.js
+392 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/package.json
+393 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/LICENSE
+394 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/index.js
+395 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/.travis.yml
+396 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/example/tarray.js
+397 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/readme.markdown
+398 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/test/tarray.js
+399 silly gunzTarPerm extractEntry node_modules/concat-stream/node_modules/typedarray/test/server/undef_globals.js
+400 silly gunzTarPerm extractEntry node_modules/mkdirp/package.json
+401 silly gunzTarPerm extractEntry node_modules/mkdirp/.npmignore
+402 silly gunzTarPerm extractEntry node_modules/mkdirp/LICENSE
+403 silly gunzTarPerm extractEntry node_modules/mkdirp/index.js
+404 silly gunzTarPerm extractEntry node_modules/mkdirp/.travis.yml
+405 silly gunzTarPerm extractEntry node_modules/mkdirp/bin/cmd.js
+406 silly gunzTarPerm extractEntry node_modules/mkdirp/bin/usage.txt
+407 silly gunzTarPerm extractEntry node_modules/mkdirp/examples/pow.js
+408 silly gunzTarPerm extractEntry node_modules/mkdirp/readme.markdown
+409 silly gunzTarPerm extractEntry node_modules/mkdirp/test/chmod.js
+410 silly gunzTarPerm extractEntry node_modules/mkdirp/test/opts_fs_sync.js
+411 silly gunzTarPerm extractEntry node_modules/mkdirp/test/perm.js
+412 silly gunzTarPerm extractEntry node_modules/mkdirp/test/perm_sync.js
+413 silly gunzTarPerm extractEntry node_modules/mkdirp/test/opts_fs.js
+414 silly gunzTarPerm extractEntry node_modules/mkdirp/test/rel.js
+415 silly gunzTarPerm extractEntry node_modules/mkdirp/test/return.js
+416 silly gunzTarPerm extractEntry node_modules/mkdirp/test/return_sync.js
+417 silly gunzTarPerm extractEntry node_modules/mkdirp/test/root.js
+418 silly gunzTarPerm extractEntry node_modules/mkdirp/test/sync.js
+419 silly gunzTarPerm extractEntry node_modules/mkdirp/test/mkdirp.js
+420 silly gunzTarPerm extractEntry node_modules/mkdirp/test/umask.js
+421 silly gunzTarPerm extractEntry node_modules/mkdirp/test/clobber.js
+422 silly gunzTarPerm extractEntry node_modules/mkdirp/test/umask_sync.js
+423 silly gunzTarPerm extractEntry node_modules/mkdirp/test/race.js
+424 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/package.json
+425 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/LICENSE
+426 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/index.js
+427 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/.travis.yml
+428 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/example/parse.js
+429 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/readme.markdown
+430 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/dash.js
+431 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/default_bool.js
+432 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/dotted.js
+433 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/long.js
+434 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/parse.js
+435 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/parse_modified.js
+436 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/short.js
+437 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/whitespace.js
+438 silly gunzTarPerm extractEntry node_modules/rimraf/package.json
+439 silly gunzTarPerm extractEntry node_modules/rimraf/README.md
+440 silly gunzTarPerm extractEntry node_modules/rimraf/LICENSE
+441 silly gunzTarPerm extractEntry node_modules/rimraf/bin.js
+442 silly gunzTarPerm extractEntry node_modules/rimraf/rimraf.js
+443 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/package.json
+444 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/README.md
+445 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/LICENSE
+446 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/common.js
+447 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/glob.js
+448 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/sync.js
+449 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/package.json
+450 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/README.md
+451 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/LICENSE
+452 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/inflight.js
+453 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/test.js
+454 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/.eslintrc
+455 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json
+456 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md
+457 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE
+458 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js
+459 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js
+460 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inherits/package.json
+461 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inherits/README.md
+462 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inherits/LICENSE
+463 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inherits/inherits.js
+464 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inherits/inherits_browser.js
+465 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/inherits/test.js
+466 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/package.json
+467 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/README.md
+468 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/LICENSE
+469 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/browser.js
+470 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/minimatch.js
+471 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json
+472 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore
+473 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md
+474 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js
+475 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js
+476 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.travis.yml
+477 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-comparison.js
+478 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/same-type.js
+479 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/dollar.js
+480 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/empty-option.js
+481 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/pad.js
+482 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/order.js
+483 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/nested.js
+484 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/sequence.js
+485 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/negative-increment.js
+486 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt
+487 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/generate.sh
+488 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/cases.txt
+489 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json
+490 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore
+491 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md
+492 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js
+493 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js
+494 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.travis.yml
+495 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/Makefile
+496 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js
+497 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json
+498 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE
+499 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js
+500 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml
+501 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown
+502 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js
+503 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js
+504 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/package.json
+505 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/README.md
+506 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/LICENSE
+507 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/once.js
+508 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/test/once.js
+509 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/package.json
+510 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/README.md
+511 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE
+512 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js
+513 silly gunzTarPerm extractEntry node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js
+514 silly gunzTarPerm extractEntry node_modules/semver/package.json
+515 silly gunzTarPerm extractEntry node_modules/semver/.npmignore
+516 silly gunzTarPerm extractEntry node_modules/semver/README.md
+517 silly gunzTarPerm extractEntry node_modules/semver/LICENSE
+518 silly gunzTarPerm extractEntry node_modules/semver/semver.browser.js
+519 silly gunzTarPerm extractEntry node_modules/semver/semver.js
+520 silly gunzTarPerm extractEntry node_modules/semver/semver.min.js
+521 silly gunzTarPerm extractEntry node_modules/semver/Makefile
+522 silly gunzTarPerm extractEntry node_modules/semver/bin/semver
+523 silly gunzTarPerm extractEntry node_modules/semver/semver.browser.js.gz
+524 silly gunzTarPerm extractEntry node_modules/semver/foot.js.txt
+525 silly gunzTarPerm extractEntry node_modules/semver/head.js.txt
+526 silly gunzTarPerm extractEntry node_modules/semver/semver.min.js.gz
+527 silly gunzTarPerm extractEntry node_modules/semver/test/amd.js
+528 silly gunzTarPerm extractEntry node_modules/semver/test/big-numbers.js
+529 silly gunzTarPerm extractEntry node_modules/semver/test/clean.js
+530 silly gunzTarPerm extractEntry node_modules/semver/test/gtr.js
+531 silly gunzTarPerm extractEntry node_modules/semver/test/index.js
+532 silly gunzTarPerm extractEntry node_modules/semver/test/ltr.js
+533 silly gunzTarPerm extractEntry node_modules/semver/test/major-minor-patch.js
+534 silly gunzTarPerm extractEntry node_modules/semver/test/no-module.js
+535 silly gunzTarPerm extractEntry node_modules/which/package.json
+536 silly gunzTarPerm extractEntry node_modules/which/README.md
+537 silly gunzTarPerm extractEntry node_modules/which/LICENSE
+538 silly gunzTarPerm extractEntry node_modules/which/which.js
+539 silly gunzTarPerm extractEntry node_modules/which/bin/which
+540 silly gunzTarPerm extractEntry node_modules/which/test/basic.js
+541 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/package.json
+542 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/README.md
+543 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/LICENSE
+544 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/index.js
+545 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/node_modules/is-relative/package.json
+546 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/node_modules/is-relative/README.md
+547 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/node_modules/is-relative/index.js
+548 silly gunzTarPerm extractEntry node_modules/which/node_modules/is-absolute/node_modules/is-relative/LICENSE-MIT
+549 silly addBundled read tarball
+550 silly cleanup remove extracted module
+551 silly loadAllDepsIntoIdealTree Finishing
+552 silly loadIdealTree Finishing
+553 silly currentTree lib
+554 silly idealTree lib
+554 silly idealTree └─┬ how-to-npm@2.0.0
+554 silly idealTree   ├─┬ adventure@2.10.0
+554 silly idealTree   │ ├── inherits@2.0.1
+554 silly idealTree   │ ├── minimist@0.2.0
+554 silly idealTree   │ ├─┬ split@0.3.3
+554 silly idealTree   │ │ └── through@2.3.7
+554 silly idealTree   │ ├─┬ terminal-menu@2.1.1
+554 silly idealTree   │ │ ├── charm@0.1.2
+554 silly idealTree   │ │ ├─┬ duplexer2@0.0.2
+554 silly idealTree   │ │ │ └─┬ readable-stream@1.1.13
+554 silly idealTree   │ │ │   ├── core-util-is@1.0.1
+554 silly idealTree   │ │ │   ├── isarray@0.0.1
+554 silly idealTree   │ │ │   └── string_decoder@0.10.31
+554 silly idealTree   │ │ ├─┬ resumer@0.0.0
+554 silly idealTree   │ │ │ └── through@2.3.7
+554 silly idealTree   │ │ ├─┬ through2@0.6.5
+554 silly idealTree   │ │ │ ├─┬ readable-stream@1.0.33
+554 silly idealTree   │ │ │ │ ├── core-util-is@1.0.1
+554 silly idealTree   │ │ │ │ ├── isarray@0.0.1
+554 silly idealTree   │ │ │ │ └── string_decoder@0.10.31
+554 silly idealTree   │ │ │ └── xtend@4.0.0
+554 silly idealTree   │ │ └── visualwidth@0.0.1
+554 silly idealTree   │ ├─┬ through2@0.5.1
+554 silly idealTree   │ │ ├─┬ readable-stream@1.0.33
+554 silly idealTree   │ │ │ ├── core-util-is@1.0.1
+554 silly idealTree   │ │ │ ├── isarray@0.0.1
+554 silly idealTree   │ │ │ └── string_decoder@0.10.31
+554 silly idealTree   │ │ └── xtend@3.0.0
+554 silly idealTree   │ └── x256@0.0.2
+554 silly idealTree   ├─┬ concat-stream@1.4.8
+554 silly idealTree   │ ├── inherits@2.0.1
+554 silly idealTree   │ ├─┬ readable-stream@1.1.13
+554 silly idealTree   │ │ ├── core-util-is@1.0.1
+554 silly idealTree   │ │ ├── isarray@0.0.1
+554 silly idealTree   │ │ └── string_decoder@0.10.31
+554 silly idealTree   │ └── typedarray@0.0.6
+554 silly idealTree   ├─┬ mkdirp@0.5.0
+554 silly idealTree   │ └── minimist@0.0.8
+554 silly idealTree   ├─┬ rimraf@2.3.3
+554 silly idealTree   │ └─┬ glob@4.5.3
+554 silly idealTree   │   ├─┬ inflight@1.0.4
+554 silly idealTree   │   │ └── wrappy@1.0.1
+554 silly idealTree   │   ├── inherits@2.0.1
+554 silly idealTree   │   ├─┬ minimatch@2.0.7
+554 silly idealTree   │   │ └─┬ brace-expansion@1.1.0
+554 silly idealTree   │   │   ├── balanced-match@0.2.0
+554 silly idealTree   │   │   └── concat-map@0.0.1
+554 silly idealTree   │   └─┬ once@1.3.2
+554 silly idealTree   │     └── wrappy@1.0.1
+554 silly idealTree   ├── semver@4.3.4
+554 silly idealTree   └─┬ which@1.1.1
+554 silly idealTree     └─┬ is-absolute@0.1.7
+554 silly idealTree       └── is-relative@0.1.3
+555 silly generateActionsToTake Starting
+556 silly install generateActionsToTake
+557 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+558 silly rollbackFailedOptional Starting
+559 silly rollbackFailedOptional Finishing
+560 silly runTopLevelLifecycles Finishing
+561 silly install printInstalled
+562 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+562 verbose stack     at Error (native)
+563 verbose cwd /Users/androidadam/lighthouse/lighthouse-prep-exercises/extra-exercises
+564 error Darwin 16.0.0
+565 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "how-to-npm"
+566 error node v6.9.1
+567 error npm  v3.10.8
+568 error path /usr/local/lib/node_modules
+569 error code EACCES
+570 error errno -13
+571 error syscall access
+572 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+572 error     at Error (native)
+572 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+572 error     at Error (native)
+572 error   errno: -13,
+572 error   code: 'EACCES',
+572 error   syscall: 'access',
+572 error   path: '/usr/local/lib/node_modules' }
+573 error Please try running this command again as root/Administrator.
+574 verbose exit [ -13, true ]
